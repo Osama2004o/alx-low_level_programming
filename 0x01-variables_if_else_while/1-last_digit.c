@@ -10,16 +10,16 @@ int n,m;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-printf("%d ", n);
-
-if (n > 0) {
-printf("is positive\n");
-} else if (n == 0) {
-printf("is zero\n");
+m=n%10;
+printf("Last digit of %d is ", n);
+printf("%d ",m);
+int last_digit = n % 10;
+if (last_digit > 5) {
+printf("and is greater than 5\n");
+} else if (last_digit == 0) {
+printf("and is 0\n");
 } else {
-printf("is negative\n");
+printf("and is less than 6 and not 0\n");
 }
-
-printf("\n");
 return (0);
 }
