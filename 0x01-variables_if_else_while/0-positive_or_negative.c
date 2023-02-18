@@ -21,5 +21,6 @@ else
 {
 printf("%i is zero",n);
 }
+return 0;
 
 }
