@@ -1,4 +1,5 @@
 #include <ctype.h>
+#include <stdio.h>
 #include "main.h"
 /**
  *_islower - lower case letter
