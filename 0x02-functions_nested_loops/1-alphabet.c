@@ -12,6 +12,8 @@ int i;
 for (i = 97; i < 123; i++)
 {
 putchar(i);
+if(i==122)
+printf("\n");
 }
 }
 int main(void)
