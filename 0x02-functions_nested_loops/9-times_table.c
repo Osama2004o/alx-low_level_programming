@@ -3,15 +3,32 @@
 
 
 /**
- *   print_9_times_table - Prints the 9 times table, starting with 0
+ *   times_table - Prints the 9 times table, starting with 0
  *
  *   Return: void
  **/
-void print_9_times_table(void)
+void times_table(void)
 {
-int i;
-for (i = 0; i <= 10; i++)
+int num, mult, prod;
+
+for (num = 0; num <= 9; num++)
 {
-printf("9 x %d = %d\n", i, 9 * i);
+_putchar('0');
+for (mult = 1; mult <= 9; mult++)
+{
+_putchar(',');
+_putchar(' ');
+
+prod = num * mult;
+
+if (prod <= 9)
+_putchar(' ');
+else
+_putchar((prod / 10) + '0');
+
+_putchar((prod % 10) + '0');
+}
+_putchar('\n');
+}
 }
 }
