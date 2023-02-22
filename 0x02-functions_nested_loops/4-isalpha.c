@@ -6,8 +6,6 @@
  **/
 int _isalpha(int c)
 {
-int _islower(int c)
-{
 if (c >= 'A' && c <= 'A')
 return (1);
 else
