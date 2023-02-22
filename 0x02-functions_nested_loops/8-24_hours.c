@@ -3,11 +3,11 @@
 
 
 /**
- * print_jack_bauer - Prints every minute of the day of Jack Bauer
+ * jack_bauer - Prints every minute of the day of Jack Bauer
  *
  * Return: void
  **/
-void print_jack_bauer(void)
+void jack_bauer(void)
 {
 int minute;
 int hour;
