@@ -1,23 +1,15 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+#include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+ *print_alphabet - Prints the lowercase alphabet followed by a new line
+ **/
 void print_alphabet(void)
 {
-int i;
-for (i = 97; i < 123; i++)
+char letter = 'a';
+while (letter <= 'z')
 {
-putchar(i);
-if(i==122)
-printf("\n");
+putchar(letter);
+letter++;
 }
-}
-int main(void)
-{
-print_alphabet();
-return (0);
+putchar('\n');
 }
