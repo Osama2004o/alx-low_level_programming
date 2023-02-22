@@ -3,7 +3,8 @@
 /**
  * _abs - for abs value
  *
- * Return abs
+ * @n:the int
+ * Return: 1 if @n > 0 else 0
  **/
 int _abs(int n)
 {
