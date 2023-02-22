@@ -3,7 +3,7 @@
 /**
  * print_sign - prints the sign of int
  *
- * @n: the int 
+ * @n: the int
  *
  * Return:1 if @n > 0
  **/
