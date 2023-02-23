@@ -11,7 +11,7 @@ void print_numbers(void)
 int i;
 for (i = 48 ; i <= 57 ; i++)
 {
-printf("%i", i);
+_putchar(i);
 }
-printf("\n");
+_putchar('\n');
 }
