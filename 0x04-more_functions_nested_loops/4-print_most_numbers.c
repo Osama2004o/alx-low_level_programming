@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 
 /**
  * print_most_numbers - returns 1 if upper
@@ -16,5 +16,5 @@ if (i != 50 || i != 52)
 _putchar(i);
 }
 }
-_putchar('\n')
+_putchar('\n');
 }
