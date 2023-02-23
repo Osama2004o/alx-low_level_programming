@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * print_numbers - returns 1 if upper
@@ -10,7 +11,7 @@ void print_numbers(void)
 int i;
 for (i = 48 ; i <= 57 ; i++)
 {
-putchar(i);
+_putchar(i);
 }
-putchar('\n');
+_putchar('\n');
 }
